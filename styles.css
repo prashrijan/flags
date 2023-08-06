@@ -1,0 +1,131 @@
+.flag1{
+    background-color: #006A4E;
+    height: 100px;
+    width:150px;
+    position: relative;
+    display: inline-block;
+}
+
+.flag1 > .red-circle{
+    background-color: #F42A41;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+    position: absolute;
+    top:15px;
+    left:40px
+
+}
+
+.flag1>a>div>p, .flag2>a>div>p, .flag3>a>div>p{
+    color: black;
+    text-align: left;
+    position: relative;
+    top:110px;
+    margin: 0;
+
+}
+
+.flag1>a>div>p:hover, .flag2>a>div>p:hover, .flag3>a>div>p:hover{
+
+    cursor: pointer;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.flag2{
+    background-color:#FF0000;
+    height:100px;
+    width:150px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:20px;
+}
+
+.flag2>.rectangle1{
+    background-color: white;
+    height:20px;
+    width:80px;
+    position: absolute;
+    top:38px;
+    left:35px;
+}
+
+.flag2>.rectangle2{
+    background-color: white;
+    height:80px;
+    width:20px;
+    position: absolute;
+    top:10px;
+    left:65px;
+}
+
+
+.flag3{
+    background-color: #171796;
+    height:100px;
+    width:150px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    position: relative;
+}
+
+.flag3>.color1{
+    background-color: white;
+    height:100px;
+    width:50px;
+    position: absolute;
+    left:50px;
+}
+
+.flag3>.color2{
+    background-color: #F42A41;
+    height: 100px;
+    width:50px;
+    position: absolute;
+    left: 100px;
+
+}
+
+
+.flag1>{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    width:100%;
+    height: 100%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+h1,h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+
+body{
+    background-color: bisque;
+}
+
+footer{
+    font-family: sans-serif;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    background-color: cornflowerblue;
+
+}
